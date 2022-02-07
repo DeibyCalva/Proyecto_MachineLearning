@@ -9,6 +9,7 @@ import streamlit as st
 
 
 # Path del modelo preentrenado del proyecto Machine Learning.
+
 MODEL_PATH = 'models/pickle_model.pkl'
 
 
@@ -45,7 +46,7 @@ def main():
     </div>
     
     """
-   #181082
+   #181082 
  
     st.markdown(html_temp,unsafe_allow_html=True)
 
